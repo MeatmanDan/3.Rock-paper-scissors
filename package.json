@@ -12,5 +12,12 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.0.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "testEnvironment": "node",
+    "watchPathIgnorePatterns": [
+      "node_modules"
+    ]
   }
 }
