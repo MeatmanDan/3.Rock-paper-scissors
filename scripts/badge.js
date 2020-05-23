@@ -11,14 +11,19 @@ async function main(){
     file: `README.md`,
     line: 3,
     text: result,
-    callback: ({file, line, text, replacedText, error}) => {}
+    callback: ({file, line, text, replacedText, error}) => {
+      lineReplace({
+        file: `README.md`,
+        line: 8,
+        text: `- [x] update the assignment checks above to the correct link. - Done Automatically`,
+        callback: ({file, line, text, replacedText, error}) => {
+          git.add([ `../README.md` ]);
+          git.commit(`update README file`);
+        }
+      });
+    }
   });
-  lineReplace({
-    file: `README.md`,
-    line: 8,
-    text: `- [x] update the assignment checks above to the correct link. - Done Automatically`,
-    callback: ({file, line, text, replacedText, error}) => {}
-  });
+  
 }
 
 main();
