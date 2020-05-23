@@ -1,7 +1,7 @@
 const dirTree = require(`directory-tree`);
-const _ = require(`lodash`)
+const _ = require(`lodash`);
 
-describe('folder structure', function () {
+describe(`folder structure`, function () {
   test(`root directory is properly setup`, () => {
     const rootTree = dirTree(`${__dirname}/..`);
     const nodes = rootTree.children.map(node => node.name);
@@ -15,6 +15,10 @@ describe('folder structure', function () {
       `resources`,
       `tests`,
       `.gitignore`,
+      `.babelrc`,
+      `.eslintrc.json`,
+      `.gitignore`,
+      `.prettierrc`,
       `index.html`,
       `package.json`,
       `README.md`
