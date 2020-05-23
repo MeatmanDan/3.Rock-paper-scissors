@@ -19,6 +19,7 @@ describe(`folder structure`, function () {
       `.eslintrc.json`,
       `.gitignore`,
       `.prettierrc`,
+      `jest.config.js`,
       `index.html`,
       `package.json`,
       `README.md`
