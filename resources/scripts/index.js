@@ -15,14 +15,22 @@ const game = new RockPaperScissors();
 // hide gamescreen
 gameScreen.classList.add(`d-none`);
 
+// updateScoreTally
 function updateScoreTally(){
 
 }
 
+// updateGameHistory
 function updateGameHistory(){
 
 }
 
 // start-game-button EventListener
+startGameButton.addEventListener(`click`, function () {
+
+});
 
 // go-button EventListener
+startGameButton.addEventListener(`click`, function () {
+  
+});
