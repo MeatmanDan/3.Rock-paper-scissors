@@ -91,6 +91,7 @@ describe(`html content`, function () {
     const formLabel = formInnerDiv.querySelector(`label`);
     const formSelect = formInnerDiv.querySelector(`select`);
     const formButton = form.querySelector(`button`);
+    const gameHistoryParagraph = document.querySelector(`#game-screen > p`);
 
     expect(gameScreenScoreTallyDiv).toBeTruthy();
     expect(gameScreenScoreTallyP).toBeTruthy();
@@ -99,6 +100,7 @@ describe(`html content`, function () {
     expect(formLabel).toBeTruthy();
     expect(formSelect).toBeTruthy();
     expect(formButton).toBeTruthy();
+    expect(gameHistoryParagraph).toBeTruthy();
   });
 
   test(`#game-screen: Score Tally div`, function () {
@@ -143,6 +145,11 @@ describe(`html content`, function () {
     expect(formButton).toHaveAttribute(`id`, `go-button`);
   });
 
+  test(`#game-screen game history patagraph's ID is (game-history)`, function() {
+    const gameHistoryParagraph = document.querySelector(`#game-screen > p`);
+
+    expect(gameHistoryParagraph).toHaveAttribute(`id`, `game-history`);
+  });
 
 
   // it(`body's first element is <div> element with the class of container`, function () {
