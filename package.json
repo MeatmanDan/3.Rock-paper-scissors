@@ -18,18 +18,9 @@
     "rewire": "^5.0.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.8.0",
     "babel-jest": "^26.0.1",
     "babel-plugin-rewire": "^1.2.0",
     "eslint": "^7.0.0"
-  },
-  "jest": {
-    "clearMocks": true,
-    "testEnvironment": "node",
-    "watchPathIgnorePatterns": [
-      "node_modules"
-    ],
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
   }
 }
