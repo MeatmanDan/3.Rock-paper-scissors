@@ -9,25 +9,26 @@ const scoreParagraph = ;
 const gameHistoryParagraph = ;
 
 // instantiate the game object from the `RockPaperScissors` class.
-const game = new RockPaperScissors();
-// Placeholder variables
+let game;
 
 // hide gamescreen
 gameScreen.classList.add(`d-none`);
 
-// updateScoreTally
-function updateScoreTally(){
+// updateScoreTallyUI
+function updateScoreTallyUI(){
 
 }
 
-// updateGameHistory
-function updateGameHistory(){
+// updateGameHistoryUI
+function updateGameHistoryUI(){
 
 }
 
 // start-game-button EventListener
 startGameButton.addEventListener(`click`, function () {
-
+  const username = 
+  game = new RockPaperScissors(userName);
+  // Complete
 });
 
 // go-button EventListener
