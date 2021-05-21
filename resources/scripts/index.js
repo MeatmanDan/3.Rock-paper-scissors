@@ -32,6 +32,6 @@ startGameButton.addEventListener(`click`, function () {
 });
 
 // go-button EventListener
-startGameButton.addEventListener(`click`, function () {
+goButton.addEventListener(`click`, function () {
   
 });
