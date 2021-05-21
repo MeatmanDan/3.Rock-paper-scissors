@@ -66,7 +66,7 @@ describe(`html content`, function () {
     expect(gameFormSelect).toHaveClass(`custom-select`);
   });
 
-  it(`divs immeditelry under the forms should have a class name of form-group `, function () {
+  it(`divs immediately under the forms should have a class name of form-group `, function () {
     const welcomeFormDiv = document.querySelector(`#welcome-screen > form > div`);
     const gameFormDiv = document.querySelector(`#game-screen > form > div`);
 
