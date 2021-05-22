@@ -31,7 +31,7 @@ describe(`index.html`, () => {
     _document.addEventListener(`DOMContentLoaded`, () => {
       expect(container.querySelector(`#welcome-screen`)).toBeVisible();
       expect(container.querySelector(`#game-screen`)).not.toBeVisible();
-    })
+    });
   });
 
   it(`renders an input field and a button element`, () => {
