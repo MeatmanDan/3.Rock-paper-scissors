@@ -11,7 +11,7 @@ const gameHistoryParagraph = ;
 // instantiate the game object from the `RockPaperScissors` class.
 let game;
 
-// hide gamescreen
+// hide game screen
 gameScreen.classList.add(`d-none`);
 
 // updateScoreTallyUI
@@ -35,3 +35,8 @@ startGameButton.addEventListener(`click`, function () {
 goButton.addEventListener(`click`, function () {
   
 });
+
+// If you're doing the extra-credit, uncomment the below: reset-game-button
+// resetGameButton.addEventListener(`click`, function(e) { 
+  
+// });
