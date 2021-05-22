@@ -10,12 +10,11 @@ describe(`folder structure`, function () {
     expect(nodes).toContain(`index.html`);
     const expectedNodes = [
       `.git`,
-      `.github`,
       `.vscode`,
       `resources`,
       `tests`,
       `.gitignore`,
-      `.babelrc`,
+      `babel.config.js`,
       `.eslintrc.json`,
       `.gitignore`,
       `.prettierrc`,
