@@ -1,4 +1,9 @@
+link:focus-visible
+
 #welcome-screen {
+  border: 1px solid black;
+}
+#name-form {
   border: 1px solid black;
 }
 
